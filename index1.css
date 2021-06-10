@@ -1,42 +1,56 @@
-    @import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lato:wght@300&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-    * {
-        font-family: ('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-    }
-    
-    .title-bar {
-        font-size: 40px;
-        color: blue;
-        flex: 4;
-    }
-    
-    .nav-bar {
-        display: flex;
-        flex: 4;
-        margin: auto;
-    }
-    
-    #home-bar {
-        background-color: rgb(211, 168, 155);
-        margin: 30px 30px;
-        font-size: 30px;
-    }
-    
-    #foster-bar {
-        background-color: rgb(211, 168, 155);
-        margin: 30px 30px;
-        font-size: 30px;
-    }
-    
-    #pets-bar {
-        background-color: rgb(211, 168, 155);
-        margin: 30px 30px;
-        font-size: 30px;
-    }
-    
-    #contact-bar {
-        background-color: rgb(211, 168, 155);
-        margin: 30px 30px;
-        font-size: 30px;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+* {
+    font-family: Comfortaa, 'Times New Roman', Times, serif;
+}
+
+.title-1 {
+    font-size: 40px;
+    color: rgb(53, 53, 122);
+    background-color: mintcream;
+    font-family: "Great Vibes";
+    text-align: center;
+    padding: 1% 4% 1% 4%;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: mintcream;
+    align-self: center;
+}
+
+#home-bar {
+    margin: 30px 30px;
+    font-size: 30px;
+    padding: 2% 4% 2% 4%;
+    background-color: yellow;
+}
+
+#foster-bar {
+    margin: 30px 30px;
+    font-size: 30px;
+    padding: 2% 4% 2% 4%;
+    background-color: yellow;
+}
+
+#pets-bar {
+    margin: 30px 30px;
+    font-size: 30px;
+    padding: 2% 5% 2% 5%;
+    background-color: yellow;
+}
+
+#contact-bar {
+    margin: 30px 30px;
+    font-size: 30px;
+    padding: 2% 4% 2% 4%;
+    background-color: yellow;
+}
+
+#detail-bar {
+    margin: 30px 30px;
+    font-size: 30px;
+    padding: 2% 4% 2% 4%;
+    background-color: yellow;
+}
