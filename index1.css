@@ -1,56 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lato:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-* {
-    font-family: Comfortaa, 'Times New Roman', Times, serif;
+    @import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lato:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+    * {
+        font-family: Comfortaa, 'Times New Roman', Times, serif;
+    }
+    
+    body {
+        background-color: #eeeeee;
+    }
+    
+    .title-1 {
+        font-size: 40px;
+        color: rgb(53, 53, 122);
+        font-family: "Great Vibes";
+        text-align: center;
+        padding: 1% 4% 1% 4%;
+        font-weight: bold;
+    }
+    
+    .nav-bar {
+        display: flex;
+        align-self: center;
+        font-weight: bold;
+    }
+    
+    #home-bar {
+        margin: 30px 30px;
+        font-size: 30px;
+        padding: 2% 4% 2% 4%;
+    }
+    
+    #foster-bar {
+        margin: 30px 30px;
+        font-size: 30px;
+        padding: 2% 4% 2% 4%;
+    }
+    
+    #pets-bar {
+        margin: 30px 30px;
+        font-size: 30px;
+        padding: 2% 5% 2% 5%;
+    }
+    
+    #contact-bar {
+        margin: 30px 30px;
+        font-size: 30px;
+        padding: 2% 4% 2% 4%;
+    }
+    
+    #detail-bar {
+        margin: 30px 30px;
+        font-size: 30px;
+        padding: 2% 4% 2% 4%;
+    }
+    
+    .type-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .child-bar {
+        /* flex: 1;     */
+        width: 18%;
+        padding: 30px;
+        border-radius: 30px;
+        background-color: white;
+        font-weight: bold;
+    }
+    
+    .child-bar>div>img {
+        width: 100%;
+        border-radius: 14px;
+        height: 220px;
+        object-fit: cover;
+    }
+    
+    .bottom-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: silver;
+        border-radius: 20px;
+    }
+    
+    .breed-bar {
+        font-weight: bold;
+        padding: 10px;
+    }
+    
+    .price-bar {
+        font-weight: bold;
+        padding: 10px;
+    }
+    
+    .buy-bar {
+        text-align: center;
+        background-color: #2ef148;
+        font-weight: bold;
+        padding: 10px 0 10px 0;
+        width: 50%;
+        margin: 10% 25%;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    /* .dog-bar {
+    flex: 4;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.title-1 {
-    font-size: 40px;
-    color: rgb(53, 53, 122);
-    background-color: mintcream;
-    font-family: "Great Vibes";
-    text-align: center;
-    padding: 1% 4% 1% 4%;
-}
-
-.nav-bar {
-    display: flex;
-    background-color: mintcream;
-    align-self: center;
-}
-
-#home-bar {
-    margin: 30px 30px;
-    font-size: 30px;
-    padding: 2% 4% 2% 4%;
-    background-color: yellow;
-}
-
-#foster-bar {
-    margin: 30px 30px;
-    font-size: 30px;
-    padding: 2% 4% 2% 4%;
-    background-color: yellow;
-}
-
-#pets-bar {
-    margin: 30px 30px;
-    font-size: 30px;
-    padding: 2% 5% 2% 5%;
-    background-color: yellow;
-}
-
-#contact-bar {
-    margin: 30px 30px;
-    font-size: 30px;
-    padding: 2% 4% 2% 4%;
-    background-color: yellow;
-}
-
-#detail-bar {
-    margin: 30px 30px;
-    font-size: 30px;
-    padding: 2% 4% 2% 4%;
-    background-color: yellow;
-}
+.cat-bar {
+    flex: 4;
+    flex-direction: row;
+    justify-content: space-evenly;
+} */
