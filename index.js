@@ -1,12 +1,4 @@
-// alert("hello world");
-// let login = 1;
-// if (login == 0) {
-//     console.log("go");
-
-// }
-
-
-// let age = 16;
-// if (age == 16) {
-//     console.log("you can vote")
-// }
+let pathname = window.pathname;
+console.log(pathname);
+let y = document.querySelectorAll('[href="FosterandAdopt.html"]');
+y[0].style.color = "orangered";
