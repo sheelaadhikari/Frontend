@@ -23,7 +23,7 @@
         width: 100vw;
         height: 500px;
         object-fit: cover;
-        opacity: 0.4;
+        opacity: 0.6;
         /* filter: opacity(0.5); */
     }
     
@@ -52,6 +52,7 @@
         align-self: center;
         font-weight: bolder;
         font-size: 2.5em;
+        color: orangered;
     }
     
     .nav-left>div>img {
