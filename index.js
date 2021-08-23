@@ -1,4 +1,7 @@
-let pathname = window.pathname;
+let pathname = window.location.pathname;
 console.log(pathname);
-let y = document.querySelectorAll('[href="FosterandAdopt.html"]');
+let newPathname = pathname.slice(1);
+console.log(newPathname);
+let y = document.querySelectorAll('[href="' + newPathname + '"]');
+console.log(y);
 y[0].style.color = "orangered";
