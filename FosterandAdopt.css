@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
-body {
+
+/* body {
     font-family: Comfortaa, 'Times New Roman', Times, serif;
     background-color: #eeeeee;
     margin: 0;
     color: #444444;
-}
+} */
 
 .sound-bar {
     align-self: center;
     color: orangered;
     font-family: "Ranchers" !important;
     font-weight: bold;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 10px 10px;
 }
