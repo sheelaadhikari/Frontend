@@ -17,3 +17,19 @@
     font-size: 20px;
     padding: 10px 10px;
 }
+
+.adopt-them-bar {
+    padding: 30px 30px;
+    background-color: white;
+}
+
+.foster-bar {
+    align-self: center;
+    color: orangered;
+    font-family: "Ranchers" !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 10px 10px;
+    background-color: rgb(190, 253, 253);
+}
