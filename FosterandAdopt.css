@@ -8,14 +8,19 @@
     color: #444444;
 } */
 
+.type-bar {
+    padding: 30px;
+}
+
 .sound-bar {
     align-self: center;
     color: orangered;
     font-family: "Ranchers" !important;
     font-weight: bold;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px 10px;
+    text-align: center;
 }
 
 .adopt-them-bar {
